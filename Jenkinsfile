@@ -15,7 +15,7 @@ pipeline {
                 }
             }
         }
-        stage(version-control){
+        stage('version-control'){
             steps{
                 echo "end of parallel job"
             }
